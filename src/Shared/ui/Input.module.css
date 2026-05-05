@@ -1,0 +1,34 @@
+.inputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  padding: 8px 10px;
+  padding-right: 30px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  height: 38px;
+}
+
+.input:focus {
+  border-color: #2563eb;
+}
+
+.clearBtn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.clearBtn:hover {
+  color: #dc2626;
+}
